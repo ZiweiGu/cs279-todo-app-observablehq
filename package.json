@@ -1,0 +1,14 @@
+{
+  "name": "963a94b3f89c1409",
+  "main": "963a94b3f89c1409@541.js",
+  "version": "541.0.0",
+  "homepage": "https://observablehq.com/d/963a94b3f89c1409",
+  "author": {
+    "name": "Ziwei Gu",
+    "url": "https://observablehq.com/@ziweigu"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

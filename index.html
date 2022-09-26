@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>D3, Redux, and Redux-Undo: Todo List</title>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+<body>
+  <!--Import necessary modules and create a runtime instance to run the app --> 
+<script type="module">
+
+import define from "./index.js"; 
+import {Runtime, Library, Inspector} from "./runtime.js"; 
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+
+</script>
